@@ -3,7 +3,7 @@ import { Activity, Phone, Scissors, Search } from 'lucide-react';
 import { HeelConditions } from '@/components/heel-conditions';
 
 export const metadata: Metadata = {
-  title: 'Heel Pain Specialists | Laredo Family Foot Center',
+  title: 'Heel Pain Specialist | Laredo Family Foot Center',
   description:
     'Diagnosis and treatment of plantar fasciitis, Achilles tendonitis, calcaneal stress fractures, and heel spurs in Laredo, TX with Dr. Daniel Bell, DPM.',
 };

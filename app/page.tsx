@@ -56,7 +56,7 @@ export default function Page() {
         <div className="shell relative z-10 flex min-h-155 items-center py-20">
           <div className="max-w-3xl text-white">
             <p className="eyebrow animate-rise">
-              Laredo&apos;s trusted foot & ankle specialists
+              Laredo&apos;s trusted foot & ankle specialist
             </p>
             <h1 className="animate-rise delay-1 mt-5 max-w-2xl font-display text-5xl leading-[.98] md:text-8xl">
               Get back to the life you love.

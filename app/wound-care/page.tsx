@@ -105,6 +105,15 @@ export default function WoundCarePage() {
                 and make sure your questions are answered and your treatment is
                 handled properly.
               </p>
+
+              <p>
+                For more than 30 years, Dr. Daniel Bell has successfully treated
+                diabetic foot ulcers, helping patients heal and avoid serious
+                complications. Through experience, careful evaluation, and
+                individualized treatment plans, Dr. Bell provides specialized
+                wound care focused on promoting healing and protecting the
+                health of his patients’ feet.
+              </p>
             </div>
           </div>
           <figure className="wound-hero-media">
