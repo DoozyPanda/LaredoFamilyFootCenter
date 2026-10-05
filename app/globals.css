@@ -113,7 +113,7 @@ body { margin:0; background:var(--background); color:var(--foreground); font-fam
  .contact-submit { margin-top:28px; border:0; cursor:pointer; }
  .contact-card { border-left:3px solid #880303; background:#faf9f8; padding:28px; }
 .contact-row { display:flex; gap:16px; border-bottom:1px solid #ecd8d8; padding:0 0 20px; margin-bottom:20px; color:#880303; }
-.contact-row:last-child { border-bottom:0; margin:0; padding:0; }
+.contact-row:last-child { border-bottom:0; margin:0; }
 .contact-row svg { flex:none; }
 .contact-row strong { color:#662d2e; font-size:13px; text-transform:uppercase; letter-spacing:.1em; }
 .contact-row p { margin:6px 0 0; color:#3e282a; line-height:1.45; font-size:14px; }
