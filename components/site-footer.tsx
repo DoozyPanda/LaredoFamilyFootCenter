@@ -1,22 +1,21 @@
-import Link from 'next/link'
-import { MapPin } from 'lucide-react'
-import { logo } from '@/components/site-header'
+import Link from 'next/link';
+import { MapPin } from 'lucide-react';
+import { logo } from '@/components/site-header';
+import { BusinessHours } from '@/components/business-hours';
 
 export function SiteFooter() {
   return (
     <footer className="footer">
       <div className="shell footer-grid">
         <div className="footer-brand">
-          <img src={logo} alt="Family Foot Center of Laredo logo" className="footer-logo" />
-          <p>Professional foot and ankle care for Laredo families, since 1994.</p>
-          <a
-            href="https://www.google.com/maps/dir/?api=1&destination=604+Shiloh+Dr,+Laredo,+TX+78045"
-            target="_blank"
-            rel="noreferrer"
-            className="footer-directions"
-          >
-            <MapPin size={16} /> Get directions to our office
-          </a>
+          <img
+            src={logo}
+            alt="Family Foot Center of Laredo logo"
+            className="footer-logo"
+          />
+          <p>
+            Professional foot and ankle care for Laredo families, since 1994.
+          </p>
         </div>
         <div className="footer-column">
           <p className="footer-heading">Browse our website</p>
@@ -37,42 +36,54 @@ export function SiteFooter() {
             <br />
             Laredo, TX 78045
           </p>
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=604+Shiloh+Dr,+Laredo,+TX+78045"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-directions"
+          >
+            Get directions <MapPin size={16} aria-hidden="true" />
+          </a>
           <p>
             <b>Phone</b>
             <br />
-            <a href="tel:+19567123338">(956) 712-3338</a> / <a href="tel:+19567123338">(956) 712-FEET</a>
-          </p>
-          <p>
-            <b>Email</b>
-            <br />
-            <a href="mailto:lffc@yahoo.com">lffc@yahoo.com</a>
+            <a href="tel:+19567123338">(956) 712-3338</a>
           </p>
         </div>
         <div className="footer-column footer-hours">
           <p className="footer-heading">Business hours</p>
-          <p>
-            <span>Mon – Wed</span>
-            <strong>9:00 am – 3:30 pm</strong>
-          </p>
-          <p>
-            <span>Thursday</span>
-            <strong>9:00 am – 5:30 pm</strong>
-          </p>
-          <p>
-            <span>Friday</span>
-            <strong>9:00 am – 12:00 pm</strong>
-          </p>
-          <p>
-            <span>Sat – Sun</span>
-            <strong>Closed</strong>
-          </p>
+          <BusinessHours />
+        </div>
+      </div>
+      <div
+        className="shell footer-payments"
+        aria-label="Accepted payment methods"
+      >
+        <p>We accept</p>
+        <div className="payment-methods">
+          <img src="/images/visa.png" alt="Visa" className="payment-logo" />
+          <img
+            src="/images/mastercard.png"
+            alt="Mastercard"
+            className="payment-logo"
+          />
+          <img
+            src="/images/amex.png"
+            alt="American Express"
+            className="payment-logo"
+          />
+          <img src="/images/cash.svg" alt="Cash" className="payment-logo" />
         </div>
       </div>
       <div className="shell footer-bottom">
         <p>© 2026 Laredo Family Foot Center.</p>
         <p className="footer-credit">
           Created by{' '}
-          <a href="https://laredowebdesigns.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://laredowebdesigns.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             Laredo Web Designs
           </a>
         </p>
@@ -82,5 +93,5 @@ export function SiteFooter() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
