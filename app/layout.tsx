@@ -5,21 +5,13 @@ import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dr. Daniel Bell, DPM | Foot & Ankle Care | Laredo, TX",
+  title: "Laredo, TX | Laredo Family Foot Center: Professional Podiatrists",
   description:
-    "Professional foot and ankle care in Laredo, TX. Dr. Daniel Bell specializes in foot pain, heel pain, ankle injuries, and diabetic foot care since 1994.",
+    "Laredo Family Foot Center manages and treats foot pain that has been caused by injuries or skin infections such as fractures, Athlete's Foot, Bunions, and more.",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
+        url: "/icon.png",
         type: "image/svg+xml",
       },
     ],
